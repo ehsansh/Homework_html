@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+	<title>Internal style sheet</title>
+<style type="text/css">
+body {background-color:yellow; }
+p {font-size: 30px; font-family: arial; color: red; text-align: center;}
+h1 {font-family: tahoma; color: green; text-align: right; }
+ul {color: green; background: white; font-size: 30px;}
+li {color: red;}
+</style>
+
+</head>
+<body>
+	<h1>Another way for style sheet</h1>
+
+	<p>
+		This is second way for adding style to html 
+
+	</p>
+	<div>
+		<ul>
+			<li>one</li>
+			<li>two</li>
+			<li>three</li>
+			<li>four</li>
+		</ul>
+	</div>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
