@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+	<title>my third page</title>
+	<style type="text/css">
+		body {background-color: yellow;}
+		div {text-align: center;}
+		p {color: blue;}
+		p.one{color: red; font-size: 30px;}
+		p.two{color: green;}
+		li {background-color: yellow; font-size: 25px;}
+		li#list{margin-top: 20px; margin-bottom: 20px;padding-bottom: 10px;padding-top: 15px;}
+	</style>
+
+</head>
+
+
+<body>
+	<p title="about images" class="two">Every image has four important attributes:
+	</p>
+		<ul>
+			<li>Width</li>
+			<li id="list">Height</li>
+			<li>source</li>
+			<li>alt</li>
+		</ul>
+	
+	<p class="one">
+		<b>Question:</b>what does the alt tag do?<br />
+		It provides additional information about the page
+	</p>
+	<p class="one">
+		<b>Question:</b>Why should we use height and width for the 
+		image?<br />
+		because the browser can find the size of the image before<br />
+		loading.
+	</p>
+	<p>
+		How should we write html tag for images?<br />
+		you should wirte like below:
+		&lt;img src="source" width="value" height="value" alt="addditional information" /&gt;
+
+
+	</p>
+	<p>
+		for example now I add an image to this page like <br />
+		the above way:
+		<img src="image.gif" width="336" height="69" alt="image">
+	</p>
+	<p>
+		headings are defined with &lt;h1&gt; tags 
+		like this one:<br />
+	</p>
+	
+	<h1>nice heading</h1>
+	
+	<p>
+		links are defined like the below way:<br />
+		&lt;a href="source" &gt;this is a link&lt;/a&gt;
+		for example I want to make a link to Google so<br />
+		click <a href="http://www.google.com">here </a> for going to this website
+
+	</p>
+	<p>
+		html elements can have attributes an attribute has a name<br />
+		and a value which is written in the start tag like this<br />
+		name="value"<br />
+	</p>
+	<div>
+		<p >
+			for example background color of this page in the body tag is 	green
+		</p>
+	</div>
+	<p>
+		what is the title tag?<br />
+		it is used to give extra information about an element <br />
+		for example if you hover the mouse on the below heading <br />
+		you can see some extra information<br />
+	</p>
+			<h1 title="this text is a tool tip">Usage of title tag</h1>
+
+
+	<p>what is hr tag? it is jus a horizontal line</p>
+	<hr />
+
+
+</body>
+
+</html>
