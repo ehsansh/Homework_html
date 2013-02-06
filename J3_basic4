@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="fa-IR">
+<head>
+
+  <meta charset="utf-8" />
+	<title>another example</title>
+	<style type="text/css">
+
+		a:link {color:black; text-decoration: none;}
+		a:visited {color:orange;}
+		a:hover {color: red}
+		a:active {color: green;}
+
+	</style>
+
+
+</head>
+
+
+<body>
+	<h1>there is <a id="top">link</a> at the bottom of the page</h1>	
+
+	<p>فارسی نوشتن در صفحه</p>
+
+	<p>english writing <a id="up">up link</a></p>
+	<p>
+		what does the &lt;pre&gt; tag do?<br />
+		it shows in the browser exactly how you write your text<br />
+		like this:<br />
+	</p>
+		<pre>
+			here is an    example of
+			this nice tag   for
+			a      e   e   e
+			  f
+
+		</pre>
+	
+	<blockquote>
+	<p>
+		blockquote tag is used to specify a section that is <br />
+		from another source it is very useful and user friendly
+	</p>
+	</blockquote>
+	<p> 
+		cite attribute in the above tag shows source but what happens if we delet this attribute in the browser?
+	</p>
+	<p>
+		what does the target attribute in the a tag do?<br />
+		it opens the link in a new window like the below exampl:<br />
+		click <a href="http://google.com" target="blank">here</a>to see what happens<br />
+		<strong>
+		target attribute is a very useful tag<br />
+		</strong>
+		<em>
+		it could helps a lot
+		</em>
+	</p>
+	<pre>
+	I 
+	want
+	to 
+	make 
+	the 
+	page
+	longer
+	easily
+	</pre>
+
+
+	<p>
+		 How to link to a location in the same page
+	 
+		This is very easy you should give id of the destination<br />
+		to your link for example<br />
+		click the this <a href="#up">bottom link</a><br />
+		to go to the above link
+	
+
+	</p>
+
+	<p>
+	<a href="#top">go to top</a>
+
+	</p>
+	<p>
+		visit <a href="http://google.com" target="_blank">google</a><br />
+		visit <a href="http://yahoo.com" target="_blank">yahoo</a><br />
+		visit <a href="https://facebook.com" target="_blank">facebook</a>
+
+
+
+
+	</p>
+
+
+
+
+</body>
+
+
+
+
+</html>
