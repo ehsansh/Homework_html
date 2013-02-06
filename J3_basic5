@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+
+
+  <meta charset="utf-8" />
+	<title>example</title>
+</head>
+
+<body>
+	<h1> There are three ways to add css to HTML</h1>
+	<div>
+		The first wat is to use style as an element inside a tag<br />
+		For example:
+	<p style="background-color:green;">background color of this text is green</p>
+	<p style="background-color:red;">but this one is red</p>
+	<p style="background-color:yellow">and this one is yellow</p>
+	<p style="background-color:orange; font-size:20px;">
+		you can also change the font size
+	</p>
+	<p style="font-family:arial; font-size:30px;">
+		it is possible to change the font family too
+	</p>
+	<p style="font-size:30px; text-align:right; background-color:green; color:red ">
+		And also you can change the text alignment
+	</p>
+	<p style="font-size:34px; color:orange; background-color:purple; text-align:center;   ">
+		It is very nice to change the color of the font too
+
+	</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
