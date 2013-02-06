@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<title> external style sheet</title>
+<meta charset="utf-8">
+
+<style type="text/css">
+h1 {background-color: yellow; 
+  text-align: center; 
+	text-decoration: 
+	underline;
+	}
+p {font-size: 20px; 
+	font-family: arial; 
+	font-weight: bold;
+	}
+p.one {color: red;
+	text-align: right;
+}
+p.two {color: green;
+	background-color: purple;
+	margin-left: 30px;
+	padding-left: 30px;
+}
+li {list-style-type: none;
+	float: right;
+	padding-right: 25px;
+	background-color: green;
+	width: 120px;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ul {
+	margin-right: 40px;
+
+
+}
+a {text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: arial;
+	padding-left: 30px;
+}
+img {
+	text-align: center;
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+	<h1>Learning how to work with external style sheet</h1>
+	<div>
+		this is very easy in the head tag you should link to your css <br />
+		file like below:<br />
+	<p class="one">
+		&lt;link rel="stylesheet" type="text/css" href=""&gt;
+	</p>
+	<p class="two">
+		and you should save your css file with css extension <br />
+		and determine css for your elements in html file
+	</p>
+	</div>
+
+	<div>
+		<ul>
+			<li><a href="">home</a></li>
+			<li><a href="">product</a></li>
+			<li><a href="">contact us</a></li>
+			<li><a href="">about us</a></li>
+		</ul>
+
+	</div>
+
+</body>
+
+
+
+
+</html>
