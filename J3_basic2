@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+
+  <meta charset="utf-8" />	
+	<title>my second page</title>
+
+</head>
+<body>
+
+	<p><b>Question</b>: Is &lt;!DOCTYPE HTML&gt; a tag?</p>
+	<p>
+		No this is not a tag that is why it start with ! and <br />
+		HTML is not its attribute and it does not have any value
+	</p>
+	<p>
+		<b>Question:</b> What happens if we do not determine attribute of the meta tag?
+	</p>
+	<p>Our browser could not open some special languages</p>
+
+	<p>
+		<b>Question</b>How could we write spaces in our paragraphs?<br />
+		That is very simple we should write nbs between & and ; now I add 5<br />
+		spaces here see how it works &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; YOu see how<br />
+		it works now?
+	</p>
+
+
+
+
+</body>
+
+
+
+</html>
