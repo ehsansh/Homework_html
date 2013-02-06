@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="fa-IR">
+<head>
+  <title>learning html</title>
+	<meta charset="utf-8" />
+<style type="text/css">
+
+a.one:link {color: green; text-decoration: none; background-color: yellow;}
+a:visited {color: blue; font-size: 30px;}
+a:hover {font-family: arial; font-weight: bold;}
+a#two:link {color: red; font-size: 30px; text-decoration: none;}
+
+
+</style>
+
+
+</head>
+<body>
+	<p>
+		<a href="test.html" target="blank" class="one">this is the first one</a><br />
+		<a href="test5.html" target="blank" class="one">this is the second one</a><br />
+		<a href="test1.html" target="blank" class="one">this is the third one</a><br />
+		<a href="test2.html" target="blank" >this is the fourth one</a><br />
+		<a href="htttp://google.com" target="blank" >this is the fifth one</a><br />
+		<a href="htttp://yahoo.com" target="blank"  id="two">this is the sixth one</a><br />
+	</p>
+
+
+</body>
+
+</html>
