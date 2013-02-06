@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+
+  <meta charset="utf-8" />
+
+  <title>my first page</title>
+
+<style type="text/css">
+
+p {background-color: yellow; margin-left: 30px; margin-bottom: 40px;width: 450px;word-spacing: 6px;padding-right: 200px; color: red;}
+i {color: black; font-size: 25px; font-family: arial;}
+li {background-color: black; color:white;font-size: 25px; text-align: center;}
+li#new {color: red;}
+p#old {color:black; font-size: 25px;}
+
+
+</style>
+
+
+</head>
+
+<body>
+	<p>
+		I am trying to learn <b>html</b> there two importatn<br /> things for learning this language
+	</p>
+	
+	<p style="color:green; font-size:30px;">Learning for its best source</p>
+	
+	<p>wrting the codes and practicing a lot</p>
+	<p>
+		In this language we have <i>elements</i> these elements have two important parts
+	</p>
+		<ul>
+			<li>tags</li>
+			<li id="new">element contents</li>
+		</ul>
+	<p>What are the <em>tags</em>?</p>
+		<p id="old">
+			They are desciptive words which are sorounded by &gt; and &lt;
+			These two symbols has a meaning for Html so for showong them<br />
+			in the browser we should write gt and lt between & and ;
+
+		</p>
+
+
+
+
+
+</body>
+
+
+
+</html>
