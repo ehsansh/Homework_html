@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>table</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<p>I want to draw some tables</p>
+
+		<table border="1" cellpadding="10" cellspacing="10">
+			<tr>
+				<td>A</td>
+				<td>B</td>
+			</tr>
+			<tr>
+				<td>A1</td>
+				<td>B1</td>
+			</tr>
+			<tr>
+				<th>A2</th>
+				<td>B2</td>
+			</tr>
+		</table><br />
+
+		<table border="1">
+			<tr>
+				<th>First</th>
+				<th>Second</th>
+			</tr>
+			<tr>
+				<td>A</td>
+				<td>B</td>
+			</tr>			
+		</table><br />
+
+		<table border="1">
+			<caption>this is written in caption tag</caption>
+			<tr>
+				<td>first title</td>
+				<td>second title</td>
+			</tr>
+			<tr>
+				<td>a</td>
+				<td>b</td>
+			</tr>
+		</table><br />
+
+		<table border="1" cellspacing="0" cellpadding="7">
+			<caption>usage of colspan</caption>
+			<tr>
+				<td>a</td>
+				<td colspan="2">b</td>
+			</tr>
+			<tr>
+				<td>c</td>
+				<td>d</td>
+				<td>e</td>
+			</tr>
+		</table><br />
+
+		<table border="1" cellspacing="10">
+			<caption>usage of rowspan</caption>
+			<tr>
+				<td>a</td>
+				<td>b</td>
+				<td>c</td>
+			</tr>
+			<tr>
+				<td>d</td>
+				<td rowspan="2">e</td>
+				<td>s</td>
+			</tr>
+			<tr>
+				<td>f</td>
+				<td>g</td>
+			</tr>
+		</table><br />
+
+		<table border="1" cellpadding="10">
+			<caption>uasage of rowspan and colspan</caption>
+			<tr>
+				<td rowspan="2">a</td>
+				<td>b</td>
+				<td>c</td>
+			</tr>
+			<tr>				
+				<td>d</td>
+				<td>e</td>
+			</tr>
+			<tr>
+				<td>f</td>
+				<td colspan="2">g</td>				
+			</tr>
+
+		</table>
+
+
+</body>
+
+
+
+</html>
