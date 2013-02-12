@@ -114,9 +114,9 @@
 	</div>
 	<table id="tab">
 		<tr>
-			<td><img src="" alt="product1" width="260px" height="100px" class="tasvir"></td>
-			<td><img src="" alt="product2" width="260px" hegith="100px" class="tasvir"></td>
-			<td><img src="" alt="product3" width="260px" height="100px" class="tasvir"></td>
+			<td><img src="" alt="product1" width="260px" height="100px" class="tasvir" /></td>
+			<td><img src="" alt="product2" width="260px" hegith="100px" class="tasvir" /></td>
+			<td><img src="" alt="product3" width="260px" height="100px" class="tasvir" /></td>
 		</tr>
 		<tr>
 			<td class="buy"><a href="">Add to cart</a> or <a href="">Buy</a> </td>
