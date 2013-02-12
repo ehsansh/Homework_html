@@ -46,7 +46,7 @@
 
 	<form action=" method="get>
 		who has introduced you:<input type="text" name="name" size="10" /><br />
-		what is your password:<input type="pas" name="pas" /><br />
+		what is your password:<input type="password" name="pas" /><br />
 		how do you want to buy?<br />
 		internet<input type="radio" name="buy" value="internet" /><br />
 		in the market<input type="radio" name="buy" value="market" /><br />
