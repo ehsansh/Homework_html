@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>link css</title>
+	<meta charset="UTF-8"/>
+	<style type="text/css">
+		p {
+			line-height: 350%;
+		}
+
+		a.one:link{
+			text-decoration: none;
+			font-weight: bolder;
+			color: yellow;
+		}
+		a.one:visited{
+			text-decoration: line-through;
+			font-style: italic;
+			font-variant: small-caps;
+			color: black;
+			background-color:yellow;
+			font-size: 30px; 
+
+		}
+		a.one:hover{
+			font-family: verdana;
+			font-size: 30px;
+			color: green;
+		}
+		a.one:active{
+			font-size: large;
+			font-family: Tahoma;
+		}
+		a.two:link{
+			text-decoration: none;
+			color: black;
+		}
+		a.two:visited{
+			text-decoration: underline;
+			color: red;
+			font-size: 1.5em;
+		}
+		a.two:hover{
+			text-decoration: line-through;
+			text-transform: uppercase;
+			font-size: 20px;
+			color: green;
+		}
+		a.two:active{
+			text-decoration: underline;
+			font-family: tahoma;
+		}
+
+		a.three:link{
+			color: blue;
+			text-indent: 150px;
+		}
+		a.three:visited{
+			
+			font-size: 20px;
+		}
+		a.three:hover{
+			text-decoration: none;
+			font-variant: small-caps;
+		}
+
+
+		a.four:link{
+			color: red;
+			background-color:yellow;
+			text-decoration: none; 
+		}
+		a.four:visited{
+			color: black;
+			background-color:purple;
+		}
+		a.four:hover{
+			background-color: black;
+			color: white;
+			font-size: 25px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<p>
+		<a href="http://google.com" target="_blank" class="one">This is a link </a><br />
+		<a href="http://google.com" target="_blank" class="two">This is a link </a><br />
+		<a href="http://google.com" target="_blank" class="three">This is a link </a><br />
+		<a href="http://google.com" target="_blank" class="four">This is a link </a><br />
+		
+	</p>
+
+
+</body>
+</html>
