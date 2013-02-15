@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<html lag="en-US">
+<head>
+  <title>learning html</title>
+	<meta charset="UTF-8" />
+	<style type="text/css">
+		div.one {
+			background-color: blue;
+			color: red;
+			font-size: 30px;
+			height: 100px;
+			text-align: center;
+		}
+		li.two {
+			font-weight: bold;
+			color: red;
+		}
+		p.three {
+			background-color: green;
+			text-align: right;
+		}
+		.four {
+			background-image:url(http://www.w3schools.com/images/w3schoolslogoNEW310113.gif); 
+		}
+		.five{
+			background-image:url('tasvir.jpg'); 
+		}
+		h1{
+			background-color: yellow;
+		}
+		.six{
+			background-image: url('image.gif');
+			background-repeat: repeat-x;
+			height: 100px;
+
+		}
+
+		.seven{
+			background-image: url('image.gif');
+			background-repeat: repeat-y;
+			height: 200px;
+		}
+		.eight{
+			background-image: url('image.gif');
+			background-repeat: no-repeat;
+			height: 100px;
+		}
+		.nine{
+			background-image: url('image.gif');
+			background-repeat: no-repeat;
+			background-position: right bottom;
+			height: 150px;
+		}
+		.ten{
+			background-image: url('image.gif');
+			background-repeat: no-repeat;
+			background-position: left top;
+			height: 150px;
+			background-color: yellow;
+
+		}
+		.eleven{
+			background-image:url('image.gif');
+			background-repeat: no-repeat;
+			background-position: right center;
+			height: 150px; 
+			background-color: green;
+		}
+
+		.twelve{
+			background-image:url('image.gif');
+			background-repeat: no-repeat;
+			background-color: yellow;
+			background-position: center center; 
+			height: 150px;
+		}
+		.thirteen{
+			background-color: green;
+			background-image:url('image.gif');
+			background-repeat: no-repeat;
+			background-position: left center;
+			height: 150px; 
+		}
+		.fourteen{			
+			background-image: url('image.gif');
+			background-repeat: no-repeat;
+			background-position: center top;
+			background-attachment: fixed;
+		}
+		.fifteen{
+			background-image:url('image.gif');
+			background-position: right top;
+			background-repeat: no-repeat;
+			background-attachment: scroll; 
+		}
+		.sixteen{
+			background-image:url('image.gif');
+			background-position: 550px 100px;
+			background-repeat: no-repeat;
+			background-attachment: scroll; 
+		}
+
+	</style>
+</head>
+<body>
+	<h1>even the h1 tag could have a background color</h1>
+	<div class="one">
+		<p>
+			I want to test tthe background color in this tag
+		</p>
+	</div>
+	<p>
+		we can have <span class="two">same</span> tags with the same class but specify one of them for css
+	</p>
+	<ul>
+		<li class="two">same class</li>
+		<li class="two">same class</li>
+		<li class="two">same class</li>
+	</ul>
+	<p class="two">
+		this paragraph has the same class like the above list but the css does not affect this paragraph because only li is affected 
+	</p>
+	<p class="three">
+		any element can have a background color in css like this paragraph
+	</p>
+	<p class="four">
+		this paragraph has an image<br />
+		for its background
+	</p>
+	<hr />
+	<p class="five">
+		this paragraph has another image<br />
+		in the hard drive<br />
+		for its background
+	</p>
+	<hr />
+	<p class="six">		
+			this p tag has a background image which is repeated horizontally		
+	</p><br />
+	<hr />
+
+	<p class="seven">
+		this p tag has background image which is repeated vertically
+	</p>
+	<p class="eight">
+		in this paragraph the background image is not repeated
+	</p><br />
+	<hr />
+	<p class="nine">
+		we could determine the background image of this paragraph and also specify the position of that too
+		for example the background image of this p tag is positioned in the right bottom of it
+	</p><br />
+	<hr />
+	<p class="ten">
+		in this p tag the background image is positioned in the left top of its block
+	</p>
+	<hr />
+	<p class="eleven">
+		in this p tag the postion of the image right center of the block
+	</p>
+	<hr />
+	<p class="twelve">
+		in this p tag the image is positioned in the center center
+	</p>
+	<p class="thirteen">
+		in this p tag the image is positioned in the left center of the block
+	</p>
+	<hr />
+	<div>
+		<p class="fourteen">
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+			the background image is fixed<br />
+		</p>
+		<hr />
+	</div>
+	<div>
+		<p class="fifteen">
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+			The background image in this p tag could be scrolled<br />
+		</p>
+	</div>
+	<hr />
+	<div>
+		<p class="sixteen">
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+			In this tag the background image is positioned exactly by specific number of px<br />
+		</p>
+	</div>
+	
+</body>
+
+</html>
