@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>attribute</title>
+	<meta charset="UTF-8" />
+	<style type="text/css">
+	    [title]{
+	    	color: blue;
+	    }
+	    [title~=hello]{
+	    	border:1px solid black;
+	    }
+
+	    input[type="text"]{
+	    	width: 200px;
+	    	background-color: yellow;
+	    	display: block;
+	    }
+
+	    [title=one]{
+	    	color: red;
+	    }
+	  
+
+
+	</style>
+</head>
+<body>
+	<h1 title="hello world">
+		This is heading with title hello world
+	</h1>
+	<h2 title="hello world">
+		This is another heading with title hello world
+	</h2>
+	<h3 title="hello world">
+		This one has the title hello world too
+	</h3>
+
+	<form method="get">
+		username<input type="text" name="user" />
+		password<input type="password" name="pas" />
+	</form>
+	<p title="one">this is some text</p>
+	<p title="one">this is some text</p>
+	<p title="onee">this is some text</p>
+	<p title="onee">this is some text</p>
+
+</body>
+</html>
