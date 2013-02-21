@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en-Us">
+<head>
+  <title>nesting</title>
+	<meta charset="UTF-8" />
+	<style type="text/css">
+		h1,h2,h3{
+			color: green;
+		}
+
+		.a li{
+			font-size: 20px;
+			background-color: yellow;
+		}
+
+		p.b, p.c, p.d{
+			font-size: 20px;
+		}
+
+		p.e, p.f{
+			color: red;
+		}
+
+		p.b{
+			height: 40px;
+			border:1px solid black;
+		}
+
+		p.c{
+			height: 40%;
+			border:1px solid black;
+			background-color: yellow;
+		}
+
+		p.d{
+			height: 70%;
+			border:1px solid black;
+			background-color: yellow;
+		}
+
+		p.e{
+			min-height: 100px;
+			background-color: yellow;
+			max-width: 350px;
+		}
+
+		p.f{
+			width: 60%;
+			background-color: green;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>this is first heading</h1>
+	<h2>this is the second</h2>
+	<h3>this is third one</h3>
+
+	<ul>
+		<li>a</li>
+		<li>b</li>
+		<li>c</li>
+	</ul>
+
+	<ul class="a">
+		<li>a</li>
+		<li>b</li>
+		<li>c</li>
+	</ul>
+
+	<p class="b">
+		this is a paragraph.
+	</p>
+	<p class="c">
+		this is a paragraph.
+	</p>
+	<p class="d">
+		this is a paragraph.
+	</p>
+	<p class="e">
+		this is a paragraph.
+	</p>
+	<p class="f">
+		this is a paragraph.
+	</p>
+
+
+
+</body>
+</html>
