@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en-Us">
+<head>
+  <title>pseduo</title>
+	<meta charset="UTF-8" />
+	<style type="text/css">
+		p:first-child{
+			color: blue;
+		}
+
+		p:first-child b{
+			font-size: 28px;
+		}
+
+		p > b:first-child{
+			background-color: yellow;
+		}
+
+		input:focus{
+			background-color: red;
+
+		}
+
+		p.a:first-line{
+			background-color: yellow;
+		}
+
+		li:first-child{
+			font-size: 29px;
+		}
+
+		p.a:first-letter{
+			color: red;
+			font-size: 29px;
+		}
+		p:before{
+			content: "this is a paragraph";
+			color:green;
+			font-weight: bolder;
+
+		}
+		p:after{
+			content: "this is the end of this paragraph";
+			color:green;
+			font-weight: bolder;
+		}
+
+		ul:after{
+			content: "this is a list";
+		}
+		h1:before{
+			content: url(f1.jpg);
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<h1>This is a heading</h1>
+	<p>
+		this is <b>one</b> not <b>two</b>
+	</p>
+	<p>
+		this is <b>two</b> not <b>one</b>
+	</p>
+
+	<form>
+		Username:<input type="text" name="username" /><br />
+		Password:<input type="password" name="pass" /><br />
+		<input type="submit" value="click here" />
+	</form>
+	<p class="a">
+		This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.This is some text.
+	</p>
+	<ul>
+		<li>a</li>
+		<li>b</li>
+		<li>c</li>
+		<li>d</li>
+		<li>e</li>
+
+	</ul>
+
+</body>
+</html>
