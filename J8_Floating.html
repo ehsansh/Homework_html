@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>float</title>
+	<meta charset="UTF-8" />
+	<style type="text/css">
+		img.right{
+			float: right;
+		}
+		img.left{
+			float: left;
+		}
+
+		img.a{
+			float: left;
+			margin: 10px;
+
+		}
+
+		img.b{
+			float: right;
+			margin: 10px;
+		}
+
+		p{
+			margin-top: 100px;
+		}
+
+		p.c{
+			clear: both;
+			background-color: yellow;
+		}
+
+		img.one{
+			float: right;
+			border:1px dashed black;
+			margin: 0px 0px 30px 10px;
+		}
+
+		div.two{
+			float: right;
+			width: 130px;
+			border:1px solid black;
+		}
+
+		div.two img{
+			margin-left: 12px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			outline: 4px groove green;
+		}
+
+		span.three{
+			float: left;
+			font-size: 30px;
+			line-height: 90%;
+
+		}
+
+		ul{
+			float: right;
+			list-style-type: none;
+			width: 100%;
+			margin-right: 20px;
+		}
+
+		a{
+			float: right;
+			padding-left: 20px;
+			text-decoration: none;
+			background-color: black;
+			border-right: 2px solid white;
+			color: white;
+		}
+
+		a:hover{
+			background-color: red;
+		}
+
+	</style>
+</head>
+<body>
+	<p>
+		the image in this paragraph image is not floated
+		<img src="f1.jpg" alt="flower" width="107" height="90" />
+		this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.
+	</p>
+		<p>
+		the image in this paragraph image is floated to right
+		<img src="f1.jpg" alt="flower" width="107" height="90" class="right" />
+		this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.
+	</p>
+		<p>
+		the image in this paragraph image is floated to left
+		<img src="f1.jpg" alt="flower" width="107" height="90" class="left" />
+		this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.
+	</p>
+	<p>
+		all the images in this paragraph are floated left
+		<img src="f1.jpg" alt="flower1" width="107" height="90" class="a"  title="f1" />
+		<img src="f2.jpg" alt="flower2" width="107" height="90" class="a" />
+		<img src="f3.jpg" alt="flower3" width="107" height="90" class="a" />
+		<img src="f4.jpg" alt="flower4" width="107" height="90" class="a" />
+		<img src="f5.jpg" alt="flower5" width="107" height="90" class="a" />
+		<img src="f6.jpg" alt="flower6" width="107" height="90" class="a" />
+		<img src="f7.jpg" alt="flower7" width="107" height="90" class="a" />
+	</p>
+
+	<p>
+		all the images in this paragraph are floated right
+		<img src="f1.jpg" alt="flower1" width="107" height="90" class="b" title="f1" />
+		<img src="f2.jpg" alt="flower2" width="107" height="90" class="b" />
+		<img src="f3.jpg" alt="flower3" width="107" height="90" class="b" />
+		<img src="f4.jpg" alt="flower4" width="107" height="90" class="b" />
+		<img src="f5.jpg" alt="flower5" width="107" height="90" class="b" />
+		<img src="f6.jpg" alt="flower6" width="107" height="90" class="b" />
+		<img src="f7.jpg" alt="flower7" width="107" height="90" class="b" />
+	</p><br /><br />
+
+
+	<p>
+		all the images in this paragraph are floated right
+	</p>
+		<img src="f1.jpg" alt="flower1" width="107" height="90" class="b" title="f1" />
+		<img src="f2.jpg" alt="flower2" width="107" height="90" class="b" />
+		<img src="f3.jpg" alt="flower3" width="107" height="90" class="b" />
+		<img src="f4.jpg" alt="flower4" width="107" height="90" class="b" />
+		<p class="c">here is clear:both</p>
+		<img src="f5.jpg" alt="flower5" width="107" height="90" class="b" />
+		<img src="f6.jpg" alt="flower6" width="107" height="90" class="b" />
+		<img src="f7.jpg" alt="flower7" width="107" height="90" class="b" /><br /><br />
+		<p>
+			<img src="f1.jpg" alt="flower1" width="107" height="90" class="one" />
+			this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.
+		</p><br /><br />
+		
+		<p>
+			<div class="two">
+				<img src="f1.jpg" alt="flower1" width="107" height=	"90" />
+			</div>
+		
+			this is some text this is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some textthis is some text
+		</p><br /><br />
+
+		<p>
+			<span class="three">T</span>his is some text. this is some text. this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.this is some text.
+		</p>
+
+		<ul>
+			<li><a href="#">One</a></li>
+			<li><a href="#">Two</a></li>
+			<li><a href="#">Three</a></li>
+			<li><a href="#">Four</a></li>
+		</ul>
+			
+
+	
+
+</body>
+</html>
