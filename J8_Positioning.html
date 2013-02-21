@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>positioning</title>
+	<meta charset="UTF-8" />
+	<style type="text/css">
+		p.a{
+			position: fixed;
+			bottom: 20px;
+			left: 300px;
+		}
+
+		p.b{
+			position: relative;
+			top: -200px;
+			color: red;
+		}
+		p.c{
+			position: relative;
+			top: 50px;
+			right: -100px;
+			color: green;
+		}
+		p.d{
+			position: relative;
+			top: 40px;
+			color: gray;
+			left: 200px;
+		}
+		p.e{
+			position: relative;
+			color: green;
+			top: 60px;
+		}
+
+		p.f{
+			position: fixed;
+			left: 100px;
+			bottom: 100px;
+		}
+
+		p.g{
+			position: absolute;
+			left: 100px;
+			top: 100px;
+			font-size: 20px;
+		}
+
+		li.h{
+			position: relative;
+			top: 100px;
+			left: 200px;
+		}
+		li.i{
+			position: absolute;
+			top: 100px;
+			left: 200px;
+		}
+		li.j{
+			position: absolute;
+			top: 100px;
+			left: 400px;
+		}
+
+		p.k{
+			position: relative;
+			top: -80px;			
+		}
+
+		img{
+			z-index: -1;
+		}
+
+		p.l{
+			position: absolute;
+			background-color: yellow;
+			clip: rect(0px,200px,300px,0px);
+		}
+
+		div.m{
+			
+			height: 100px;
+			width: 200px;
+			overflow: scroll;
+		}
+	
+
+	</style>
+</head>
+<body>
+	<p class="a">this text is fixed by position property</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p class="f">this text is fixed</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p class="c">this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p class="d">this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p class="e">this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p class="g">this text</p>
+	<p>this text</p>
+	<p>this text</p>
+	<p class="b">
+		This text is positioned relatively so it overlaps with other elements
+	</p>
+
+	<ul>
+		<li>a</li>
+		<li>b</li>
+		<li class="h">relative</li>
+		<li>d</li>
+
+	</ul>
+	<ul>
+		<li>a</li>
+		<li>b</li>
+		<li class="i">abosolute</li>
+		<li>d</li>
+
+	</ul>
+	<div>
+		<ul>
+			<li>a</li>
+			<li>b</li>
+			<li class="j">where</li>
+			<li>d</li>
+
+		</ul>
+	</div>
+
+	<h1>this is heading</h1>
+	<img src="tasvir.jpg" alt="tasvir" widht="304" height="228" />
+	<p class="k">wherer is the image</p>
+	<hr /><br />
+	<div>
+		<p class="l">
+			I want to check how the clip property in css<br /> works the value of this property could rect<br /> which determines a rectangle
+		</p><br /><br /><br />
+	</div>
+	<div class="m">
+	<p>
+		I want to test the overflow property in css it could be hidden or scroll let's see how it works in this page
+	</p>
+	</div>
+
+
+	<p>
+		<span style="cursor:auto;">auto</span><br />
+		<span style="cursor:crosshair;">crosshair</span><br />
+		<span style="cursor:pointer;">pointer</span>
+	</p>
+
+</body>
+</html>
