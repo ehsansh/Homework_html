@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>link css</title>
+	<meta charset="UTF-8" />
+	<style type="text/css">
+	a {
+		display: block;
+		line-height: 400%;
+		font-size: 2em;
+	}
+
+	a.a:link{
+		color: red;
+	}
+	a.a:visited{
+		color: green;
+	}
+	a.a:hover{
+		color:yellow;
+	}
+	a.a:active{
+		color: black;
+	}
+
+
+	a.b:link{
+		color: green;
+		font-size: 2em;
+	}
+	a.b:visited{
+		color: red;
+		font-size: 2.5em;
+	}
+	a.b:hover{
+		color:black;
+		font-size: 3em;
+	}
+	a.b:active{
+		color: yellow;
+		font-size: 4em;
+	}
+
+
+	a.c:link{
+		text-decoration: none;
+		background-color: yellow;
+	}
+	a.c:visited{
+		text-decoration: underline;
+		background-color: green;
+	}
+	a.c:hover{
+		text-decoration: overline;
+		background-color: gray;
+	}
+	a.c:active{
+		text-decoration: line-through;
+		background-color: blue;
+	}
+
+	a.d:link{
+		
+		background-color: yellow;
+	}
+	a.d:visited{
+		text-decoration: underline;
+		background-color: red;
+	}
+
+	a.e:link{
+		text-decoration: none;
+	}
+	a.e:visited{
+		text-decoration: underline;
+	}
+
+	</style>
+</head>
+<body>
+	<a href="#" class="a">link one</a>
+	<a href="#" class="b">link two</a>
+	<a href="#" class="c">link three</a>
+	<a href="http://google.com" class="d">link four</a>
+	<a href="#" class="e">link five</a>
+
+</body>
+</html>
