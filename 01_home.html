@@ -5,6 +5,14 @@
 	<title>Home</title>
 
 	<style type="text/css">
+
+		html,body{
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
 		div.a{
 			width:200px;
 			height: 100px;
@@ -83,6 +91,67 @@
 
 		}
 
+		div.d1{
+			width: 420px;
+			height: 65px;
+			padding-top: 17px;
+			padding-bottom: 0px;
+			padding-left: 20px;
+			background-color: #A54042;
+			margin-top: 30px;
+			border-radius: 7px;
+			line-height: 22px;
+			font-size: 15px;
+
+		}
+
+		div.d2{
+			float: right;
+			margin-bottom: 100px;
+
+		}
+
+		div.d3 a{
+			height: 35px;
+			width: 150px;
+			background-color: #215276;
+			margin-right: 30px;
+			float: left;
+			padding-top: 15px;
+			padding-left: 20px;
+			margin-top: 33px;
+			font-size:18px;
+			font-weight: 400;
+			border-radius: 5px;
+			padding-right: 12px;
+			text-decoration: none;
+			color: white;
+
+		}
+
+		div.d4 a{
+			height: 35px;
+			width: 150px;
+			background-color: #215276;
+			float: right;
+			margin-right: 110px;
+			padding-top: 15px;
+			padding-left: 20px;
+			margin-top: 33px;
+			font-size: 18px;
+			font-weight: 400px;
+			border-radius: 5px;
+			text-decoration: none;
+			color: white;
+		}
+
+		.d3 a:hover{
+			background-color: #A54042;
+		}
+		.d4 a:hover{
+			background-color: #A54042;
+		}
+
 	
 
 
@@ -116,15 +185,29 @@
 		</tr>
 		<tr>
 			<td>
-				<h2>Need cloud hosting?</h2>
-				<p>
-					NO PROBLEM. WE’VE GOT YOU COVERED! FULL POWER OF A DEDICATED SERVER FOR THE FRACTION OF A PIRCE!
-				</p>
-				<div>
-					10 GB of disk space 2 TB of monthly bandwidth<br />
-					PostgreSQL/MySQL databases 10 mailboxes
+				<div class="d2">
+					<img src="hero-image-server.png" width="450" height="331" alt="server" />
 				</div>
-				<img src="hero-image-server.png" width="450" height="331" alt="server" />
+				<h2>Need cloud hosting?</h2>
+
+				<p>
+					NO PROBLEM. WE’VE GOT YOU COVERED! FULL POWER OF<br />
+					 A DEDICATED SERVER FOR THE FRACTION OF A PIRCE!
+				</p>
+
+				<div class="d1">
+					<img src="dedicated-server.png" width="16" height="16" alt="server" />&nbsp;&nbsp;10 GB of disk space &nbsp;&nbsp;&nbsp;
+					<img src="bandwidth.png" width="16" height="16" alt="bandwidth" />&nbsp;&nbsp;2 TB of monthly bandwidth<br />
+					<img src="database.png" width="16" height="16" alt="database" />&nbsp;&nbsp;PostgreSQL/MySQL databases &nbsp;&nbsp;&nbsp;
+					<img src="email.png" width="16" height="16" alt="email" />&nbsp;&nbsp;10 mailboxes
+				</div>
+				<div class="d3">
+					<a href="#">Buy this plan now</a>
+				</div>
+				<div class="d4">
+					<a href="#">View other plans</a>
+				</div>
+			
 			</td>
 		</tr>
 		<tr>
