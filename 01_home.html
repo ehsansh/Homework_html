@@ -13,23 +13,7 @@
 			padding: 0;
 		}
 
-		div.a{
-			width:200px;
-			height: 100px;
-			background-color: blue;
-			float: left;
-			margin-left: 200px;
-			
-		}
 
-		div.b{
-			width: 200px;
-			height: 100px;
-			background-color: red;
-			float: right;
-			margin-right: 300px;
-
-		}
 
 		body{
 			background-color: white;
@@ -46,9 +30,16 @@
 
 		ul.menu {
 			list-style-type: none;
-			margin-left: 300px;
-
+			margin-left: 450px;
 		}
+
+		h1{
+			font-size: 26px;
+			float: left;
+			padding-left: 14px;
+			padding-top: 28px;
+		}
+
 		.menu a{
 			color: white;
 			text-decoration: none;
@@ -70,7 +61,7 @@
 
 		ul.header{
 			list-style-type: none;
-			padding-bottom: 20px;
+			
 			margin-left: 0px;
 
 		}
@@ -82,14 +73,52 @@
 			padding-left: 10px;
 			padding-right: 10px;
 			font-size: 14px;
+			height: 30px;
+			padding-top: 0px;
+
+		
+		}
+
+		.header a:hover{
+			background-color: #A54042;
+			height: 30px;
+			padding-top: 0px;		
 
 		}
+
+		span.customer{
+			float: right;
+
+		}
+
+		.customer a{
+			text-decoration: none;
+			color: white;
+			margin-right: 14px;
+			display: block;
+			height: 30px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		.customer a:hover{
+			background-color: #A54042;
+			height: 30px;
+		}
+
+
 
 		.tr1{
 			background-color: #215276;
 			height: 50px;
 
 		}
+
+		.td4{
+			padding-left: 14px;
+
+		}
+
 
 		div.d1{
 			width: 420px;
@@ -110,6 +139,7 @@
 			margin-bottom: 100px;
 
 		}
+
 
 		div.d3 a{
 			height: 35px;
@@ -134,7 +164,7 @@
 			width: 150px;
 			background-color: #215276;
 			float: right;
-			margin-right: 110px;
+			margin-right: 100px;
 			padding-top: 15px;
 			padding-left: 20px;
 			margin-top: 33px;
@@ -248,6 +278,7 @@
 			padding-left: 15px;
 			font-size: 14px;
 			line-height: 21px;
+			padding-bottom: 35px;
 		}
 
 		.ldiv{
@@ -289,6 +320,7 @@
 			text-align: center;
 			font-size: 26px;
 			line-height: 39px;
+			padding-top: 20px;
 		}
 
 		.tr3 p{
@@ -318,6 +350,10 @@
 			padding-left: 14px;
 			padding-top: 20px;
 			padding-right: 20px;
+		}
+
+		div.one p{
+			padding-top: 20px;
 		}
 
 		.footer div.two{
@@ -371,6 +407,88 @@
 			padding-left:35px; 
 		}
 
+		div.a{
+			width:500px;
+			height: 50px;
+			background-color: #10283A;
+			float: left;
+			margin-left: 15px;
+			border-radius: 5px;
+			
+		}
+
+
+		div.a form{
+			float: left;
+			padding-top: 11px;
+			padding-left: 14px;
+			color: #B94A4D;
+			font-size:18px;
+		}
+		div.a span{
+			float: left;
+			padding-top: 14px;
+			padding-left: 14px;
+			color: #B94A4D;
+			font-size:18px;
+		}
+
+
+		.sign{
+			background-color: #0C1D2A;
+			color: white;
+			border: none;
+			width:80px;
+			height: 30px;
+			border-radius: 6px;
+
+		}
+
+		div.b span{
+			color:#B94A4D;
+			font-size: 18px;
+			padding-left:14px;
+			padding-top: 14px;
+			float: left;
+			padding-right: 20px;
+		}
+
+		div.b{
+			width: 300px;
+			height: 50px;
+			background-color: #10283A;
+			float: right;
+			border-radius: 6px;
+			margin-right: 70px;
+			
+		}
+		.b li{
+			list-style-type: none;
+		}
+
+
+
+		.b a{
+			text-decoration: none;
+			display: block;
+			width: 30px;
+			height: 20px;
+			float: left;
+			color: white;
+			font-size: 16px;
+			background-color: #0C1D2A;
+			margin-right: 10px;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.tr4 p{
+			padding-left: 16px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+
 
 	
 
@@ -386,19 +504,20 @@
 <body>
 	<table class="main">
 		<tr class="tr1">
-			<td>
+			<td>				
 				<ul class="header">
 					<li><a href="#">Phone support:0511</a></li>
 					<li><a href="#">Live chat support</a></li>
 					<li><a href="#">Submit a ticket</a></li>
-					<li><a href="#">Customer login</a></li>
+					
 				</ul>
+				<span class="customer"><a href="#">Customer login</a></span>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<ul class="menu">
-					<li><a href="#">CLOUD HOSTER</a></li>
+				<h1>CLOUD HOSTER</h1>
+				<ul class="menu">					
 					<li><a href="#">HOME</a></li>
 					<li><a href="#">SERVICES</a></li>
 					<li><a href="#">ABOUT</a></li>
@@ -408,7 +527,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td>
+			<td class="td4">
 				<div class="d2">
 					<img src="hero-image-server.png" width="450" height="331" alt="server" />
 				</div>
@@ -549,7 +668,7 @@
 		<tr class="footer">
 			<td>
 				<div class="one">
-					<span>Cloud Hoster</span>
+					<span>Cloud Hoster</span><br />
 					<p>
 						Cloud Hoster is a clean, simple design that brings a modern approach to standard hosting theme. It's a mix of standard and unique solutions for a new, fresh and exciting result.
 					</p>
@@ -587,20 +706,28 @@
 		<tr>
 			<td>
 				<div class="a">
-					Sign-up to our newsletter:
+					<span>Sign-up to our newsletter:</span>
 					<form>
 						<input type="text" name="email" />
-						<input type="submit" value="Sign up" />
+						<input type="submit" value="Sign up" class="sign" />
 					</form>
 				</div>
 				<div class="b">
-					Connect via:
+					<span>Connect via:</span>
+					<ul>
+						<li><a href="#">t</a></li>
+						<li><a href="#">f</a></li>
+						<li><a href="#">G</a></li>
+						<li><a href="#">in</a></li>
+					</ul>
 				</div>
 			</td>
 		</tr>
-		<tr>
+		<tr class="tr4">
 			<td>
-				Copyright2013.Cloud Hoster Theme by Borowski. All rights reserved
+				<p>
+					Copyright2013.Cloud Hoster Theme by Borowski. All rights reserved
+				</p>
 			</td>
 		</tr>
 	</table>
