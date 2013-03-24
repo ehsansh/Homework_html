@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+	<title>border</title>
+	<style type="text/css">
+		div.a{
+			background: url('f1.jpg');
+			background-repeat: no-repeat;
+			background-size: 90px 80px;
+			-moz-background-size:90px 80px;
+			height: 80px;			
+		}
+		div.b{
+			background: url('f1.jpg');
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			-moz-background-size:100% 100%;
+		}
+		div.one{
+			padding: 120px;
+			background-image: url('f1.jpg');
+			background-repeat: no-repeat;
+			background-position: left bottom;
+			background-origin: border-box;
+			-webkit-background-origion:border-box;
+		}
+		div.two{
+			padding: 120px;
+			background-image: url('f1.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-origin: content-box;
+			-webkit-background-origion:content-box;
+		}
+		div.three{
+			background-image: url('f1.jpg'),url('f2.jpg');
+			width: 800px;
+			height: 400px;
+		}
+		div.four{
+			background-color: yellow;
+			padding: 90px;
+			border:5px dashed black;
+			background-clip: border-box;
+		}
+		div.five{
+			background-color: red;
+			padding: 80px;
+			background-clip: padding-box;
+			border: 6px dashed black;
+		}
+		div.six{
+			background-color: green;
+			padding: 80px;
+			background-clip: content-box;
+			border:5px dashed black;
+		}
+	</style>
+</head>
+<body>
+	<div class="a">
+		we could use a background image for our pages
+	</div>
+	<div class="b">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi et nulla pariatur nam error asperiores sapiente officia atque beatae architecto corporis fugit accusamus voluptatem consectetur dolore voluptate ipsam obcaecati recusandae enim vel nostrum voluptas similique eum neque saepe at dicta porro temporibus aspernatur dolorem nemo molestias doloribus libero. Quisquam placeat dolores hic doloribus possimus fuga praesentium veniam voluptas aperiam voluptates perspiciatis commodi nemo excepturi laboriosam ut expedita earum rem. Ut consectetur facilis fugiat quae dolorum odit doloribus temporibus magnam quam nobis velit autem impedit eligendi voluptatem est molestiae neque tempora nisi ipsa deserunt harum ad maxime optio tenetur qui hic.
+	</div>
+	<div class="one">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos optio cum nostrum ab possimus assumenda fugit non mollitia cumque quae quidem rerum consectetur pariatur doloribus atque vero praesentium distinctio sint aliquam deserunt! Inventore animi aliquam nulla libero quaerat recusandae nisi. Sunt rem voluptate possimus perferendis consequatur nesciunt nulla error numquam soluta tempore corrupti aliquam! Ex necessitatibus molestias dolore ad ea omnis repellendus qui sit dicta earum praesentium nulla cum quidem pariatur id! Commodi quasi voluptate doloribus cupiditate recusandae veritatis soluta quidem dolores molestias nulla quam totam laborum pariatur corporis omnis! Voluptatum eos odio obcaecati deleniti esse accusamus atque ipsum animi?
+	</div>
+	<div class="two">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos optio cum nostrum ab possimus assumenda fugit non mollitia cumque quae quidem rerum consectetur pariatur doloribus atque vero praesentium distinctio sint aliquam deserunt! Inventore animi aliquam nulla libero quaerat recusandae nisi. Sunt rem voluptate possimus perferendis consequatur nesciunt nulla error numquam soluta tempore corrupti aliquam! Ex necessitatibus molestias dolore ad ea omnis repellendus qui sit dicta earum praesentium nulla cum quidem pariatur id! Commodi quasi voluptate doloribus cupiditate recusandae veritatis soluta quidem dolores molestias nulla quam totam laborum pariatur corporis omnis! Voluptatum eos odio obcaecati deleniti esse accusamus atque ipsum animi?
+	</div>
+	<div class="three">
+		using multiple images for background
+	</div>
+	<div class="four">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia a aliquid praesentium repellat corporis provident ab debitis. Deleniti neque itaque culpa sequi officiis quam aliquam nobis amet placeat vel magni eaque ipsum sed quaerat cum. Eius ducimus omnis culpa aliquid alias ipsam sit perspiciatis eaque ad dolorum voluptatem nisi! Facilis perspiciatis eligendi corporis consequuntur aut saepe veniam aspernatur omnis expedita deleniti temporibus magni debitis ratione officia nesciunt voluptate laudantium in suscipit est alias architecto error enim cumque eius quidem dicta perferendis! Assumenda quia veritatis excepturi voluptatem iure ut ducimus harum amet molestias ipsa eius debitis rem architecto. Quasi eaque.
+	</div>
+	<div class="five">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia a aliquid praesentium repellat corporis provident ab debitis. Deleniti neque itaque culpa sequi officiis quam aliquam nobis amet placeat vel magni eaque ipsum sed quaerat cum. Eius ducimus omnis culpa aliquid alias ipsam sit perspiciatis eaque ad dolorum voluptatem nisi! Facilis perspiciatis eligendi corporis consequuntur aut saepe veniam aspernatur omnis expedita deleniti temporibus magni debitis ratione officia nesciunt voluptate laudantium in suscipit est alias architecto error enim cumque eius quidem dicta perferendis! Assumenda quia veritatis excepturi voluptatem iure ut ducimus harum amet molestias ipsa eius debitis rem architecto. Quasi eaque.
+	</div>
+	<div class="six">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia a aliquid praesentium repellat corporis provident ab debitis. Deleniti neque itaque culpa sequi officiis quam aliquam nobis amet placeat vel magni eaque ipsum sed quaerat cum. Eius ducimus omnis culpa aliquid alias ipsam sit perspiciatis eaque ad dolorum voluptatem nisi! Facilis perspiciatis eligendi corporis consequuntur aut saepe veniam aspernatur omnis expedita deleniti temporibus magni debitis ratione officia nesciunt voluptate laudantium in suscipit est alias architecto error enim cumque eius quidem dicta perferendis! Assumenda quia veritatis excepturi voluptatem iure ut ducimus harum amet molestias ipsa eius debitis rem architecto. Quasi eaque.
+	</div>
+	
+</body>
+</html>
