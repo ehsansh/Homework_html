@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-  <meta charset="UTF-8" />
+	<meta charset="UTF-8" />
 	<title>transform</title>
 	<style type="text/css">
 		div.one{
@@ -64,6 +64,61 @@
 			-o-transform: skew(20deg,30deg);
 			-webkit-transform:skew(20deg,30deg);
 		}
+		div.d1{
+			width: 100px;
+			height: 50px;
+			background-color: red;
+			margin: 100px;
+			transform: rotateX(40deg);
+			-moz-transform: rotateX(40deg);
+			-webkit-transform: rotateX(40deg);
+		}
+		div.d2{
+			width: 100px;
+			height: 50px;
+			background-color: red;
+			margin: 100px;
+			transform: rotateX(80deg);
+			-moz-transform: rotateX(80deg);
+			-webkit-transform: rotateX(80deg);
+		}
+		div.d3{
+			width: 100px;
+			height: 50px;
+			background-color: red;
+			margin: 100px;
+			transform: rotateX(120deg);
+			-moz-transform: rotateX(120deg);
+			-webkit-transform: rotateX(120deg);
+		}
+		div.d4{
+			width: 100px;
+			height: 50px;
+			background-color: red;
+			margin: 100px;
+			transform: rotateX(180deg);
+			-moz-transform: rotateX(180deg);
+			-webkit-transform: rotateX(180deg);
+		}
+		div.d5{
+			width: 100px;
+			height: 50px;
+			background-color: red;
+			margin: 100px;
+			transform: rotateX(220deg);
+			-moz-transform: rotateX(220deg);
+			-webkit-transform: rotateX(220deg);
+		}
+		div.d6{
+			width: 100px;
+			height: 50px;
+			background-color: yellow;
+			margin: 100px;
+			transform: rotateY(40deg);
+			-moz-transform: rotateY(40deg);
+			-webkit-transform: rotateY(40deg);
+		}
+
 
 	</style>
 </head>
@@ -75,6 +130,13 @@
 	<div class="s2">this div is scaled</div>
 	<div class="skew1">this div is not skewed</div>
 	<div class="skew2">this div is skewed</div>
+
+	<div class="d1">the rotateX is 40deg</div>
+	<div class="d2">the rotateX is 80deg</div>
+	<div class="d3">the rotateX is 120deg</div>
+	<div class="d4">the rotateX is 180deg</div>
+	<div class="d5">the rotateX is 220eg</div>
+	<div class="d6">the rotateY is 40deg</div>
 	
 </body>
 </html>
