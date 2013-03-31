@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+	<title>transition</title>
+	<style type="text/css">
+		div.d1{
+			width: 100px;
+			height: 100px;
+			margin: 100px;
+			background-color: red;
+			transition: width 2s, background-color 4s, height 6s;
+			-moz-transition: width 2s, background-color 4s, height 6s;
+			-webkit-transition: width 2s, background-color 4s, height 6s;
+			o-transition: width 2s, background-color 4s, height 6s;
+		}
+		div.d1:hover{
+			width: 200px;
+			height: 200px;
+			background-color: green;
+		}
+		div.d2{
+			width: 100px;
+			height: 100px;
+			margin: 100px;
+			background-color: yellow;
+			-moz-transition-property:width;
+			-moz-transition-timing-function: ease-in;
+			-moz-transition-duration:8s;
+			-moz-transition-delay:2s;
+		}
+		div.d2:hover{
+			width: 400px;
+		}
+		div.d3{
+			width: 100px;
+			height: 100px;
+			margin: 100px;
+			background-color: gray;
+			-moz-transition: width 8s ease-out 2s;
+			-o-transition: width 8s ease-out 2s;
+			-webkit-transition: width 8s ease-out 2s;
+		}
+		div.d3:hover{
+			width: 400px;
+		}
+		div.d4{
+			width: 100px;
+			height: 100px;
+			margin: 100px;
+			background-color: #e82;
+			-moz-transition: width 8s ease-in-out 1s;
+			-webkit-transition: width 8s ease-in-out 1s;
+			-o-transition: width 8s ease-in-out 1s;
+		}
+		div.d4:hover{
+			width: 400px;
+		}
+		div.d5{
+			width: 100px;
+			height: 100px;
+			margin: 100px;
+			background-color: red;
+			-moz-transition: width 8s ease 1s;
+			o-transition: width 8s ease 1s;
+			-webkit-transition: width 8s ease 1s;
+		}
+		div.d5:hover{
+			width: 400px;
+		}
+	</style>
+</head>
+<body>
+	<div class="d1"></div>
+	<div class="d2"></div>
+	<div class="d3"></div>
+	<div class="d4"></div>
+	<div class="d5"></div>
+	
+</body>
+</html>
