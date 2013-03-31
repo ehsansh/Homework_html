@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+	<title>transform</title>
+	<style type="text/css">
+		div.one{
+			width: 100px;
+			height: 50px;
+			margin: 100px;
+			background-color: green;
+			transform: rotate(40deg);
+			-moz-transform: rotate(40deg);
+			-o-transform: rotate(40deg);
+			-ms-transform: rotate(40deg);
+			-webkit-transform: rotate(40deg);
+		}
+		div.a{
+			width: 100px;
+			height: 50px;
+			background-color: yellow;
+
+		}
+		div.b{
+			width: 100px;
+			height: 50px;
+			background-color: yellow;
+			transform: translate(50px, 120px);
+			-moz-transform: translate(50px, 120px);
+			-ms-transform: translate(50px,120px);
+			-o-transform: translate(50px,120px);
+			-webkit-transform: translate(50px,120px);
+		}
+		div.s1{
+			width: 100px;
+			height: 50px;
+			background-color: red;
+			margin-top: 300px;
+		}
+		div.s2{
+			width: 100px;
+			height: 50px;
+			margin: 150px;
+			background-color: red;
+			transform: scale(2,4);
+			-moz-transform: scale(2,4);
+			-o-transform:scale(2,4);
+			-ms-transform:scale(2,4);
+			-webkit-transform:scale(2,4);
+		}
+		div.skew1{
+			width: 100px;
+			height: 50px;
+			background-color: #e82;
+		}
+		div.skew2{
+			width: 100px;
+			height: 50px;
+			background-color: gray;
+			margin: 100px;
+			transform: skew(20deg,30deg);
+			-moz-transform: skew(20deg,30deg);
+			-ms-transform: skew(20deg,30deg);
+			-o-transform: skew(20deg,30deg);
+			-webkit-transform:skew(20deg,30deg);
+		}
+
+	</style>
+</head>
+<body>
+	<div class="one"></div>
+	<div class="a">this div is not translated</div>
+	<div class="b">this div is translated</div>
+	<div class="s1">this div is not scaled</div>
+	<div class="s2">this div is scaled</div>
+	<div class="skew1">this div is not skewed</div>
+	<div class="skew2">this div is skewed</div>
+	
+</body>
+</html>
