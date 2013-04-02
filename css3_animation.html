@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+	<title>animation</title>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			margin: 50px;	
+			position: relative;		
+		}
+		div.d1{
+			-moz-animation: test 5s;
+		}
+		@-moz-keyframes test{
+			from {background-color: red;}
+			to{background-color: green;	}
+		}
+		@-moz-keyframes testo{
+			0% {background-color: green; left:0px; top:0px;}
+			40%{background-color: red; left:200px; top:0px;	}
+			70%{background-color: yellow; left:200px; top:200px;}
+			100%{background-color: gray; left:0px; top:200px;}
+		}
+		div.d2{
+			-moz-animation: testo 10s;
+		}
+		@keyframes my{
+			0%{left:0px;top:300px; background-color: blue;}
+			40%{left:100px;top:500px;}
+			70%{left:0px; top:100px; background-color: red;}
+			100%{left:200px; top:200px; background-color: #e82;}
+		}
+		@-moz-keyframes my{
+			0%{left:0px;top:300px; background-color: blue;}
+			40%{left:100px;top:500px;}
+			70%{left:0px; top:100px; background-color: red;}
+			100%{left:200px; top:200px; background-color: #e82;}
+		}
+		div.d3{
+			animation: my 8s;
+			-moz-animation: my 8s;
+		}
+
+		@-moz-keyframes tabe{
+			from{left: 0px; top:600px;}
+			to{left:300px; top:700px;}
+		}
+		div.d4{
+			-moz-animation:tabe 5s linear 2s infinite alternate;
+			background-color: gray;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="d1"></div>
+	<div class="d2"></div>
+	<div class="d3"></div>
+	<div class="d4"></div>
+	
+</body>
+</html>
