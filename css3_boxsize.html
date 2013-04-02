@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+	<title>Document</title>
+	<style type="text/css">
+		div.container1{
+			width: 300px;
+			height: 150px;
+			border: 8px solid black;
+		}
+		div.box1{
+			width: 50%;
+			float: left;
+			border: 8px solid green;
+			-moz-box-sizing:border-box; 
+		}
+		div.box2{
+			width: 50%;
+			float: right;
+			border: 8px solid green;
+			-moz-box-sizing: border-box; 
+		}
+
+		div.container2{
+			width: 300px;
+			height: 150px;
+			border: 8px solid black;
+		}
+		div.box3{
+			width: 50%;
+			float: left;
+			border: 8px solid green;
+			-moz-box-sizing:content-box; 
+		}
+		div.box4{
+			width: 50%;
+			float: right;
+			border: 8px solid green;
+			-moz-box-sizing: content-box; 
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container1">
+		<div class="box1">this is left div</div>
+		<div class="box2">this is right div</div>
+	</div>
+	<hr />
+	<div class="container2">
+		<div class="box3">this is left div</div>
+		<div class="box4">this is right div</div>
+	</div>
+	
+</body>
+</html>
