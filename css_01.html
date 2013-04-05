@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		html{
+			font-size: 175%;
+		}
+
+		ul li:first-child{
+			color: green;
+		}
+		ul li:first-child + li{
+			color: red;
+		}
+		ul li:nth-child(3){
+			color: yellow;
+		}
+		ul li:nth-child(4){
+			color: gray;
+		}
+		ul li:nth-child(5){
+			color: #e82;
+		}
+		#test{
+			color: red;
+		}
+		p.one{
+			color: green;
+		}
+		p.one{
+			color: blue;
+		}
+		img[src="f1.jpg"]{
+			border:2px solid red;
+		}
+		img[alt="pic2"]{
+			border:3px solid green;
+		}
+		img[src^="f3"]{
+			border: 2px dashed yellow
+		}
+		img[src$="jpg"]{
+			outline: 3px solid black;
+			margin-right: 20px;
+		}
+		img[src*="f"]{
+			display: block;
+			margin-top: 20px;
+		}
+		p[class~="two"]{
+			color: red;
+		}
+		div.d1 p{
+			font-weight: bold;
+		}
+		div.d1>p{
+			color: orange;
+		}
+		a:link {
+		 color: blue;
+		}
+		 
+		a:visited {
+		 color: gray;
+		}
+		 
+		a:hover, a:focus {
+		text-decoration: none;
+		outline: none;
+		}
+		 
+		a:active {
+		 font-weight: bold;
+		}
+		input:focus{
+			border: 2px solid blue;
+			background-color: lightgray;
+			outline: none;
+		}
+
+		li:not(.except){
+			font-size: 24px;
+		}
+		p:lang(fa-IR){
+			color: red;
+			font-weight: bolder;
+		}
+		p.p1:first-letter{
+			font-size: 3em;
+		}
+		p.p1:first-line{
+			font-weight: bolder;
+		}
+
+	
+		p.p2:before{
+			content: "read this--";
+			background-color: yellow;
+			font-weight: bold;
+		}
+
+
+	</style>
+</head>
+<body>
+	<a href="http://google.com">google</a>
+	<ul>
+		<li>a1</li>
+		<li>a2</li>
+		<li>a3</li>
+		<li class="except">a4</li>
+		<li>a5</li>
+	</ul>
+	<div id="test">
+		<p class="one">I want to test the priority in css</p>
+		<p> this p tag does not have any class</p>
+	</div>
+	<img src="f1.jpg" width="100" height="100" alt="pic1" />
+	<img src="f2.jpg" width="100" height="100" alt="pic2" />
+	<img src="f3.jpg" width="100" height="100" alt="pic3" />
+	<p class="two three four">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, natus?
+	</p>
+
+	<div class="d1">
+		<p>
+			Lorem ipsum dolor sit amet.
+		</p>
+		<article>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			</p>
+		</article>
+	</div>
+	<input type="text" name="username" />
+	<p lang="fa-IR">دیدن یک پاراگراف</p>
+
+	<p class="p1">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, accusamus dolorum quas quibusdam repellendus incidunt natus commodi perferendis magnam expedita veritatis ducimus at voluptates vitae iure beatae illo ut laudantium culpa ratione unde nulla voluptatibus facere animi tempora sed rem. Ab, fugiat, sed, in, aut pariatur dolor vel tenetur facilis ducimus nobis odio rerum ratione tempore eius accusantium aliquam incidunt.
+	</p>
+	<p class="p2">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, harum!
+	</p>
+	
+	
+</body>
+</html>
