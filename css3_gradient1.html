@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+	<title>Document</title>
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			margin: 40px;
+			border: 1px solid black;
+		}
+		.one{
+			background: linear-gradient(to bottom, blue, white,red,green,white);
+			background: -moz-linear-gradient(top,blue,white);			
+		}
+		.two{
+			background: linear-gradient(to right,red,green);
+			background:-moz-linear-gradient(left,red,green);
+		}
+		.three{
+			background: linear-gradient(to left top,white,yellow);
+			background:-moz-linear-gradient(right bottom,white,yellow);
+		}
+		.four{
+			background: linear-gradient(0deg,black,white 80%);
+			background: -moz-linear-gradient(90deg,black,white 80%);
+			float: left;
+		}
+		.five{
+			background: linear-gradient(50deg,black,white 80%);
+			background: -moz-linear-gradient(40deg,black,white 80%);			
+			float: left;
+		}
+		.six{
+			background: linear-gradient(80deg,black,white 80%);
+			background: -moz-linear-gradient(10deg,black,white 80%);
+			float: left;
+		}
+		.seven{
+			background: linear-gradient(90deg,black,white 80%);
+			background: -moz-linear-gradient(0deg,black,white 80%);
+			float: left;
+		}
+		.eight{
+			background: linear-gradient(110deg,black,white 80%);
+			background: -moz-linear-gradient(-20deg,black,white 80%);
+			float: left;
+		}
+
+		.nine{
+			background: linear-gradient(150deg,black,white 80%);
+			background: -moz-linear-gradient(-60deg,black,white 80%);
+			float: left;
+		}
+
+		.ten{
+			background: linear-gradient(to right,black 10%,red 30%);
+			float: left;
+		}
+		.eleven{
+			background: linear-gradient(to right, black 40%,white 70%,yellow 80% );
+			float:left;
+		}
+		.twelve{
+			background: linear-gradient(to right,black 30%,magenta 65%);
+			float: left;
+		}
+		.d1{
+			background: radial-gradient(red 20%, yellow 30%,blue 80%);
+			float:left;
+			border-radius: 50px;
+		}
+		.d2{
+			background: radial-gradient(ellipse farthest-corner, green 30%,#e82 60%, black 80%);
+			float: left;
+		}
+		.d3{
+			background: radial-gradient( circle  farthest-side,  red,  blue  60%,  green);
+			float:left;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="one"></div>
+	<div class="two"></div>
+	<div class="three"></div>
+	<div class="four">0 deg</div>
+	<div class="five">50 deg</div>
+	<div class="six">80 deg</div>
+	<div class="seven">90 deg</div>
+	<div class="eight">110 deg</div>
+	<div class="nine">150 deg</div>
+	<div class="ten"></div>
+	<div class="eleven">eleven</div>
+	<div class="twelve"></div>
+	<div class="d1"></div>
+	<div class="d2"></div>
+	<div class="d3"></div>
+</body>
+</html>
