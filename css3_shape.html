@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-  <meta charset="UTF-8" />
+	<meta charset="UTF-8" />
 	<title>Drawing Shapes by CSS3</title>
 	<style type="text/css">	
 		div{
 			margin-top: 200px;
+			margin-bottom: 60px;
 			margin-left: 200px;
 		}
 		.trapezium{
@@ -160,6 +161,24 @@
 			margin-top: -133px;
 			margin-left: -67px;	
 		}
+		.heart2{
+			width: 200px;
+			height: 120px;
+			background-color: red;
+			-webkit-transform:rotate(45deg);
+			border-radius: 60px 0px 0px 60px;
+		}
+		.heart2:after{
+			position: absolute;
+			content: "";
+			width: 200px;
+			height: 120px;
+			background-color: red;
+			-webkit-transform:rotate(90deg);
+			border-radius: 60px 0 0 60px;
+			margin-left: 41px;
+			margin-top: -41px;
+		}
 
 	</style>
 </head>
@@ -173,6 +192,7 @@
 	<div class="circle2"></div>
 	<div class="cube"></div>
 	<div class="heart"></div>
+	<div class="heart2"></div>
 	
 </body>
 </html>
