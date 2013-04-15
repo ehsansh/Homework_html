@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding:0;
+		}
+		div.box1{
+			margin: 200px;
+		}
+		div.box1 .d6{			
+			width: 200px;
+			height: 200px;
+			border-radius: 100px;
+			background-color: white;			
+		}
+		div.d1,
+		div.d2,
+		div.d3,
+		div.d4,
+		div.d5{		
+			width: 200px;
+			height: 200px;
+			-webkit-transform:rotate(22.5deg);
+			background-color: red;			
+		}
+
+		div.box2{
+			margin: 300px;
+			width: 200px;
+			height: 200px;		
+			position: relative;			
+			-webkit-animation:test 8s linear 1s;
+			-webkit-transform-origin:0px 200px;	
+		}
+		@-webkit-keyframes test{
+			from{left:0;top:0;}
+			to{left:600px;top:0;-webkit-transform:rotate(720deg)}
+		}
+		div.box2 div{
+			width: 200px;
+			height: 200px;
+			-webkit-border-top-right-radius:200px;
+		}
+
+		.b1,
+		.b2,
+		.b3,
+		.b4,
+		.b5,
+		.b6,
+		.b7,
+		.b8,
+		.b9,
+		.b10,
+		.b11,
+		.b12{
+			-webkit-transform:rotate(30deg);
+			-webkit-transform-origin:0 200px;
+		}
+		.box2 div.b1{
+			background-color: yellow;	
+
+		}
+		.box2 div.b2{
+			background-color: red;	
+		}
+		div.b3{	
+			background-color: green;
+		}
+		.b4{
+			background-color: orange;
+		}
+		.b5{
+			background-color:yellow;
+		}
+		.b6{
+			background-color: #5A87CA;
+		}
+		.b7{
+			background-color: black;
+		}
+		.b8{
+			background-color: #f82;
+		}
+		.b9{
+			background-color: #e45;
+		}
+		.b10{
+			background-color: #0168f1;
+		}
+		.b11{
+			background-color: red;
+			opacity: 0.4;
+		}
+		.b12{
+			background-color: yellow;
+			opacity: 0.4;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="box1">
+		<div class="d1">
+			<div class="d2">
+				<div class="d3">
+					<div class="d4">
+						<div class="d5">
+							<div class="d6">		
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="box2">
+		<div class="b1">
+			<div class="b2">
+				<div class="b3">
+					<div class="b4">
+						<div class="b5">
+							<div class="b6">
+								<div class="b7">
+									<div class="b8">
+										<div class="b9">
+											<div class="b10">
+												<div class="b11">
+													<div class="b12"></div>													
+												</div>												
+											</div>											
+										</div>										
+									</div>									
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
