@@ -165,8 +165,19 @@
 			width: 200px;
 			height: 120px;
 			background-color: red;
-			-webkit-transform:rotate(45deg);
 			border-radius: 60px 0px 0px 60px;
+			-webkit-transform:rotate(45deg);
+
+		}
+		div.animate{
+			-webkit-animation:test 1s ease-out 2s 12 alternate;			
+			width: 329px;
+			height:275px;
+			-webkit-transform-origin:100% 100%;	
+		}
+		@-webkit-keyframes test{
+			from{-webkit-transform:scale(1,1);	}
+			to{-webkit-transform:scale(1.7,1.7); }
 		}
 		.heart2:after{
 			position: absolute;
@@ -174,10 +185,10 @@
 			width: 200px;
 			height: 120px;
 			background-color: red;
+			border-radius: 60px 0px 0px 60px;
 			-webkit-transform:rotate(90deg);
-			border-radius: 60px 0 0 60px;
 			margin-left: 41px;
-			margin-top: -41px;
+			margin-top: -41px;			
 		}
 		.half{
 			width: 100px;
@@ -192,6 +203,44 @@
 			border-top: 100px solid transparent;
 			border-bottom: 0px;
 		}
+		.box{
+			display: block;			
+			width: 200px;
+			height: 200px;
+			background-color:red;			
+			/*-webkit-border-top-left-radius:100px;*/
+			-webkit-border-radius:200px 0 0 0;
+			-webkit-transform:rotate(45deg);
+		}
+
+
+		.starburst {
+		display:block;
+		width:100px;
+		height:100px;
+		background:#fe0;
+		-webkit-transform:rotate(45deg);
+		-moz-transform:rotate(45deg);
+		rotation:45deg;
+		position:relative;
+		left:50px;
+		top:50px;
+		text-align:center;
+		text-decoration:none;
+		color:#000;
+		font-weight:bold;
+		font-family:Arial, sans-serif;
+		}
+		.starburst span {
+		display:block;
+		width:100px;
+		height:100px;
+		background:#fe0;
+		-webkit-transform:rotate(22.5deg);
+		-moz-transform:rotate(22.5deg);
+		rotation:22.5deg;
+		}
+
 
 	</style>
 </head>
@@ -205,8 +254,17 @@
 	<div class="circle2"></div>
 	<div class="cube"></div>
 	<div class="heart"></div>
-	<div class="heart2"></div>
+	<div class="animate">
+		<div class="heart2"></div>
+	</div>
 	<div class="half"></div>
+	<div class="box"></div>
+
+	<div class="starburst">
+	<span><span><span>
+	<p>STARBURST</p>
+	</span></span></span>
+	</div>
 	
 </body>
 </html>
